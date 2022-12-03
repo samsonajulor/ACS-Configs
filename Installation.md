@@ -41,7 +41,7 @@ yum install -y rpm-build
 make rpm 
 yum install -y  ./build/amazon-efs-utils*rpm
 ```
-## seting up self-signed certificate for the nginx instance
+## setting up self-signed certificate for the nginx instance
 ```
 sudo mkdir /etc/ssl/private
 sudo chmod 700 /etc/ssl/private
