@@ -75,7 +75,7 @@ make rpm
 yum install -y  ./build/amazon-efs-utils*rpm
 ```
 
-## seting up self-signed certificate for the apache  webserver instance
+## setting up self-signed certificate for the apache  webserver instance
 ```
 yum install -y mod_ssl
 openssl req -newkey rsa:2048 -nodes -keyout /etc/pki/tls/private/ACS.key -x509 -days 365 -out /etc/pki/tls/certs/ACS.crt
