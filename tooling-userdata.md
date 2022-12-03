@@ -11,9 +11,9 @@ systemctl start php-fpm
 systemctl enable php-fpm
 git clone https://github.com/samsonajulor/tooling.git
 mkdir /var/www/html
-cp -R /tooling-1/html/*  /var/www/html/
-cd /tooling-1
-mysql -h acs-database.cdqpbjkethv0.us-east-1.rds.amazonaws.com -u ACSadmin -p toolingdb < tooling-db.sql
+cp -R /tooling/html/*  /var/www/html/
+cd /tooling
+mysql -h acs-database.cgtc6ru1vt7z.us-east-1.rds.amazonaws.com -u ACSadmin -p toolingdb < tooling-db.sql
 cd /var/www/html/
 touch healthstatus
 sed -i "s/$db = mysqli_connect('mysql.tooling.svc.cluster.local', 'admin', 'admin', 'tooling');/$db = mysqli_connect('acs-database.cgtc6ru1vt7z.us-east-1.rds.amazonaws.com', 'ACSadmin', 'admin12345', 'toolingdb');/g" functions.php

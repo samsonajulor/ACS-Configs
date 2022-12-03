@@ -101,7 +101,7 @@ CREATE DATABASE wordpressdb;
 
 [Nginx reverse proxy server](https://www.nginx.com/resources/glossary/reverse-proxy-server/)
 
-[Underdstanding ec2 user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
+[Understanding ec2 user data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html)
 
 [Manually installing the Amazon EFS client](https://docs.aws.amazon.com/efs/latest/ug/installing-amazon-efs-utils.html#installing-other-distro)
 
