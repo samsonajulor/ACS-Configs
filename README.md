@@ -267,8 +267,3 @@ Create other records such as CNAME, alias and A records.
 
 - Create an alias record for the root domain and direct its traffic to the ALB DNS name.
 - Create an alias record for tooling.<yourdomain>.com and direct its traffic to the ALB DNS name.
-
-Congratulations!
-
-
-You have just created a secured, scalable and cost-effective infrastructure to host 2 enterprise websites using various Cloud services from AWS. At this point, your infrastructure is ready to host real websites’ load. Since it is a pretty expensive infrastructure to keep it up and running, we are going to start using Infrastructure as Code tool Terraform to easily provision and destroy this set up.
